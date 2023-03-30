@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Entered the username]]>
+    </line>
+    <line>
+      <![CDATA[Entered the password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked the Sign In button]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in using UAT-Automation TC1 credentials]]>
+    </line>
+    <line>
+      <![CDATA[Clicked the Timesheet button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked the Timesheet Entry button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked the logout button]]>
+    </line>
+    <line>
+      <![CDATA[Entered the username]]>
+    </line>
+    <line>
+      <![CDATA[Entered the password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked the Sign In button]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified that the invalid login error message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Entered the username]]>
+    </line>
+    <line>
+      <![CDATA[Entered the password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked the Sign In button]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified that the invalid login error message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Entered the username]]>
+    </line>
+    <line>
+      <![CDATA[Entered the password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked the Sign In button]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified that the invalid login error message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Entered the username]]>
+    </line>
+    <line>
+      <![CDATA[Entered the password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked the Sign In button]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified that the empty username field message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully verified that the empty password field message is displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-19T14:04:59 PST" name="Suite" finished-at="2022-12-19T14:06:32 PST" duration-ms="93235">
+    <groups>
+    </groups>
+    <test started-at="2022-12-19T14:04:59 PST" name="Login Test Scripts" finished-at="2022-12-19T14:06:32 PST" duration-ms="93235">
+      <class name="test.Whiz.Login.TC001_Login_ValidUsernameAndPassword">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Whiz.Login.TC001_Login_ValidUsernameAndPassword@1e461e41]" started-at="2022-12-19T14:04:59 PST" name="invokeBrowser" finished-at="2022-12-19T14:05:08 PST" duration-ms="9030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smoke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://dev.whizible.com/pointwest_w21/Default.aspx]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[\\testData\\Whizible.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="ValidUsernameAndPassword()[pri:0, instance:test.Whiz.Login.TC001_Login_ValidUsernameAndPassword@1e461e41]" started-at="2022-12-19T14:05:08 PST" name="ValidUsernameAndPassword" finished-at="2022-12-19T14:05:34 PST" duration-ms="26388" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered the username]]>
+            </line>
+            <line>
+              <![CDATA[Entered the password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked the Sign In button]]>
+            </line>
+            <line>
+              <![CDATA[Successfully logged in using UAT-Automation TC1 credentials]]>
+            </line>
+            <line>
+              <![CDATA[Clicked the Timesheet button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked the Timesheet Entry button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked the logout button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidUsernameAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Whiz.Login.TC001_Login_ValidUsernameAndPassword@1e461e41]" started-at="2022-12-19T14:05:34 PST" name="tearDown" finished-at="2022-12-19T14:05:35 PST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Whiz.Login.TC001_Login_ValidUsernameAndPassword -->
+      <class name="test.Whiz.Login.TC004_Login_InvalidUsernameAndPassword">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Whiz.Login.TC004_Login_InvalidUsernameAndPassword@4f0100a7]" started-at="2022-12-19T14:06:02 PST" name="invokeBrowser" finished-at="2022-12-19T14:06:10 PST" duration-ms="7616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smoke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://dev.whizible.com/pointwest_w21/Default.aspx]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[\\testData\\Whizible.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="InvalidUsernameAndPassword()[pri:0, instance:test.Whiz.Login.TC004_Login_InvalidUsernameAndPassword@4f0100a7]" started-at="2022-12-19T14:06:10 PST" name="InvalidUsernameAndPassword" finished-at="2022-12-19T14:06:16 PST" duration-ms="6621" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered the username]]>
+            </line>
+            <line>
+              <![CDATA[Entered the password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked the Sign In button]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified that the invalid login error message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Whiz.Login.TC004_Login_InvalidUsernameAndPassword@4f0100a7]" started-at="2022-12-19T14:06:16 PST" name="tearDown" finished-at="2022-12-19T14:06:17 PST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Whiz.Login.TC004_Login_InvalidUsernameAndPassword -->
+      <class name="test.Whiz.Login.TC002_Login_InvalidUsernameAndValidPassword">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Whiz.Login.TC002_Login_InvalidUsernameAndValidPassword@66c92293]" started-at="2022-12-19T14:05:35 PST" name="invokeBrowser" finished-at="2022-12-19T14:05:40 PST" duration-ms="5243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smoke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://dev.whizible.com/pointwest_w21/Default.aspx]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[\\testData\\Whizible.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="InvalidUsernameAndValidPassword()[pri:0, instance:test.Whiz.Login.TC002_Login_InvalidUsernameAndValidPassword@66c92293]" started-at="2022-12-19T14:05:40 PST" name="InvalidUsernameAndValidPassword" finished-at="2022-12-19T14:05:47 PST" duration-ms="7016" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered the username]]>
+            </line>
+            <line>
+              <![CDATA[Entered the password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked the Sign In button]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified that the invalid login error message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Whiz.Login.TC002_Login_InvalidUsernameAndValidPassword@66c92293]" started-at="2022-12-19T14:05:47 PST" name="tearDown" finished-at="2022-12-19T14:05:47 PST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Whiz.Login.TC002_Login_InvalidUsernameAndValidPassword -->
+      <class name="test.Whiz.Login.TC003_Login_ValidUsernameAndInvalidPassword">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Whiz.Login.TC003_Login_ValidUsernameAndInvalidPassword@332796d3]" started-at="2022-12-19T14:05:47 PST" name="invokeBrowser" finished-at="2022-12-19T14:05:55 PST" duration-ms="8252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smoke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://dev.whizible.com/pointwest_w21/Default.aspx]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[\\testData\\Whizible.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="ValidUsernameAndInvalidPassword()[pri:0, instance:test.Whiz.Login.TC003_Login_ValidUsernameAndInvalidPassword@332796d3]" started-at="2022-12-19T14:05:55 PST" name="ValidUsernameAndInvalidPassword" finished-at="2022-12-19T14:06:02 PST" duration-ms="6674" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered the username]]>
+            </line>
+            <line>
+              <![CDATA[Entered the password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked the Sign In button]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified that the invalid login error message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Whiz.Login.TC003_Login_ValidUsernameAndInvalidPassword@332796d3]" started-at="2022-12-19T14:06:02 PST" name="tearDown" finished-at="2022-12-19T14:06:02 PST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Whiz.Login.TC003_Login_ValidUsernameAndInvalidPassword -->
+      <class name="test.Whiz.Login.TC005_Login_NullUsernameAndPassword">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Whiz.Login.TC005_Login_NullUsernameAndPassword@3cdf2c61]" started-at="2022-12-19T14:06:17 PST" name="invokeBrowser" finished-at="2022-12-19T14:06:24 PST" duration-ms="7819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smoke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://dev.whizible.com/pointwest_w21/Default.aspx]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[\\testData\\Whizible.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="NullUsernameAndPassword()[pri:0, instance:test.Whiz.Login.TC005_Login_NullUsernameAndPassword@3cdf2c61]" started-at="2022-12-19T14:06:24 PST" name="NullUsernameAndPassword" finished-at="2022-12-19T14:06:32 PST" duration-ms="7637" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered the username]]>
+            </line>
+            <line>
+              <![CDATA[Entered the password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked the Sign In button]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified that the empty username field message is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Successfully verified that the empty password field message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NullUsernameAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Whiz.Login.TC005_Login_NullUsernameAndPassword@3cdf2c61]" started-at="2022-12-19T14:06:32 PST" name="tearDown" finished-at="2022-12-19T14:06:32 PST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Whiz.Login.TC005_Login_NullUsernameAndPassword -->
+    </test> <!-- Login Test Scripts -->
+  </suite> <!-- Suite -->
+</testng-results>

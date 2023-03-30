@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Timesheet Entry Test Scripts</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Timesheet Entry Test Scripts</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 19 13:57:02 PST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>246 seconds (246998 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.Whiz.Timesheet_Entry.TC003_Timesheet_Entry_QuickEntry_WeeklySingleTask.quickEntry()'><b>quickEntry</b><br>Test class: test.Whiz.Timesheet_Entry.TC003_Timesheet_Entry_QuickEntry_WeeklySingleTask<br/>
+<a href="#Output-611639121" onClick='toggleBox("Output-611639121", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-611639121" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-611639121">
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Sign In button<br/>
+Successfully logged in using UAT-Automation TC2 credentials<br/>
+Clicked the Timesheet button<br/>
+Clicked the Timesheet Entry button<br/>
+Switched to inline frame<br/>
+Successfully verified that the Timesheet Entry page is displayed<br/>
+Clicked the More Projects+ button<br/>
+Successfully verified that the Select Project or Task window is displayed<br/>
+User selected Automation Testing_Project 2 from the Project dropdown<br/>
+Clicked the ATP2_Task 1_Dec 07 - 09 task checkbox<br/>
+Clicked the Select button<br/>
+Successfully verified that no time has been entered for the selected week<br/>
+Click the ATP2_Task 1_Dec 07 - 09 quick entry checkbox<br/>
+User entered 01:00 in the Quick Entry text field<br/>
+Clicked the Add Quick Entry button<br/>
+Some of the days are not allowed to fill DA for task.<br/>
+Clicked the More Projects+ button<br/>
+Successfully verified that the Select Project or Task window is displayed<br/>
+User selected Automation Testing_Project 2 from the Project dropdown<br/>
+Clicked the ATP2_Task 2_Dec 12 - 16 task checkbox<br/>
+Clicked the Select button<br/>
+Successfully verified that no time has been entered for the selected week<br/>
+Click the ATP2_Task 2_Dec 12 - 16 quick entry checkbox<br/>
+User entered 02:00 in the Quick Entry text field<br/>
+Clicked the Add Quick Entry button<br/>
+Some of the days are not allowed to fill DA for task.<br/>
+Clicked the More Projects+ button<br/>
+Successfully verified that the Select Project or Task window is displayed<br/>
+User selected Automation Testing_Project 2 from the Project dropdown<br/>
+Clicked the ATP2_Task 3_Dec 19 - 23 task checkbox<br/>
+Clicked the Select button<br/>
+Successfully verified that time has been entered in at least 1 day of the week<br/>
+Clicked the More Projects+ button<br/>
+Successfully verified that the Select Project or Task window is displayed<br/>
+User selected Automation Testing_Project 2 from the Project dropdown<br/>
+Clicked the ATP2_Task 4_Dec 19 - 23 task checkbox<br/>
+Clicked the Select button<br/>
+Successfully verified that no time has been entered for the selected week<br/>
+Click the ATP2_Task 4_Dec 19 - 23 quick entry checkbox<br/>
+User entered 04:00 in the Quick Entry text field<br/>
+Clicked the Add Quick Entry button<br/>
+Successfully entered the time using Quick Entry<br/>
+Successfully verified the time entered using Quick Entry function<br/>
+Clicked the logout button<br/>
+</div>
+</td>
+<td></td>
+<td>131</td>
+<td>test.Whiz.Timesheet_Entry.TC003_Timesheet_Entry_QuickEntry_WeeklySingleTask@56928307</td></tr>
+<tr>
+<td title='test.Whiz.Timesheet_Entry.TC004_Timesheet_Entry_SubmitTimesheet.submitTimesheet()'><b>submitTimesheet</b><br>Test class: test.Whiz.Timesheet_Entry.TC004_Timesheet_Entry_SubmitTimesheet<br/>
+<a href="#Output-812765318" onClick='toggleBox("Output-812765318", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-812765318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-812765318">
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Sign In button<br/>
+Successfully logged in using UAT-Automation TC2 credentials<br/>
+Clicked the Timesheet button<br/>
+Clicked the Timesheet Entry button<br/>
+Switched to inline frame<br/>
+Successfully verified that the Timesheet Entry page is displayed<br/>
+Clicked the View Timesheet button<br/>
+Successfully verified that the View Timesheet page is displayed<br/>
+Successfully verified that the actual hour(s) is 35:00<br/>
+Timesheet status is now Not Submitted<br/>
+Clicked the Submit button<br/>
+Timesheet status is now Submitted<br/>
+Clicked the Back button<br/>
+Clicked the logout button<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>test.Whiz.Timesheet_Entry.TC004_Timesheet_Entry_SubmitTimesheet@3899782c</td></tr>
+<tr>
+<td title='test.Whiz.Timesheet_Entry.TC001_Timesheet_Entry_CreateTask.createTask()'><b>createTask</b><br>Test class: test.Whiz.Timesheet_Entry.TC001_Timesheet_Entry_CreateTask<br/>
+<a href="#Output-1357185836" onClick='toggleBox("Output-1357185836", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1357185836" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1357185836">
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Sign In button<br/>
+Successfully logged in using UAT-Automation TC2 credentials<br/>
+Clicked the Timesheet button<br/>
+Clicked the Timesheet Entry button<br/>
+Switched to inline frame<br/>
+Successfully verified that the Timesheet Entry page is displayed<br/>
+Clicked the Create Task button<br/>
+Successfully verified that the Create Task window is displayed<br/>
+Entered 12/15/2022 in the date field<br/>
+User selected Automation Testing_Project 2 from the Project dropdown<br/>
+Entered Created Task 1 in the task name field<br/>
+User selected UAT-Generic Activities from the Task Type dropdown<br/>
+User selected Priority 3 - Medium from the Priority dropdown<br/>
+Entered 01:00 in the Actual Time field<br/>
+Clicked the Save and Create New button<br/>
+Clicked the Closed button<br/>
+Successfully verified that Created Task 1 is displayed in the timesheet<br/>
+Clicked the logout button<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>test.Whiz.Timesheet_Entry.TC001_Timesheet_Entry_CreateTask@7a1a14a4</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>TestNG:  Login Test Scripts</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login Test Scripts</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 19 14:04:59 PST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>93 seconds (93235 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.Whiz.Login.TC004_Login_InvalidUsernameAndPassword.InvalidUsernameAndPassword()'><b>InvalidUsernameAndPassword</b><br>Test class: test.Whiz.Login.TC004_Login_InvalidUsernameAndPassword<br/>
+<a href="#Output-740206526" onClick='toggleBox("Output-740206526", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-740206526" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-740206526">
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Sign In button<br/>
+Successfully verified that the invalid login error message is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>test.Whiz.Login.TC004_Login_InvalidUsernameAndPassword@4f0100a7</td></tr>
+<tr>
+<td title='test.Whiz.Login.TC001_Login_ValidUsernameAndPassword.ValidUsernameAndPassword()'><b>ValidUsernameAndPassword</b><br>Test class: test.Whiz.Login.TC001_Login_ValidUsernameAndPassword<br/>
+<a href="#Output-505693686" onClick='toggleBox("Output-505693686", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-505693686" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-505693686">
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Sign In button<br/>
+Successfully logged in using UAT-Automation TC1 credentials<br/>
+Clicked the Timesheet button<br/>
+Clicked the Timesheet Entry button<br/>
+Clicked the logout button<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>test.Whiz.Login.TC001_Login_ValidUsernameAndPassword@1e461e41</td></tr>
+<tr>
+<td title='test.Whiz.Login.TC002_Login_InvalidUsernameAndValidPassword.InvalidUsernameAndValidPassword()'><b>InvalidUsernameAndValidPassword</b><br>Test class: test.Whiz.Login.TC002_Login_InvalidUsernameAndValidPassword<br/>
+<a href="#Output-1163336956" onClick='toggleBox("Output-1163336956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1163336956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1163336956">
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Sign In button<br/>
+Successfully verified that the invalid login error message is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>test.Whiz.Login.TC002_Login_InvalidUsernameAndValidPassword@66c92293</td></tr>
+<tr>
+<td title='test.Whiz.Login.TC005_Login_NullUsernameAndPassword.NullUsernameAndPassword()'><b>NullUsernameAndPassword</b><br>Test class: test.Whiz.Login.TC005_Login_NullUsernameAndPassword<br/>
+<a href="#Output-149816309" onClick='toggleBox("Output-149816309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-149816309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-149816309">
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Sign In button<br/>
+Successfully verified that the empty username field message is displayed<br/>
+Successfully verified that the empty password field message is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>test.Whiz.Login.TC005_Login_NullUsernameAndPassword@3cdf2c61</td></tr>
+<tr>
+<td title='test.Whiz.Login.TC003_Login_ValidUsernameAndInvalidPassword.ValidUsernameAndInvalidPassword()'><b>ValidUsernameAndInvalidPassword</b><br>Test class: test.Whiz.Login.TC003_Login_ValidUsernameAndInvalidPassword<br/>
+<a href="#Output-52505597" onClick='toggleBox("Output-52505597", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-52505597" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-52505597">
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Sign In button<br/>
+Successfully verified that the invalid login error message is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>test.Whiz.Login.TC003_Login_ValidUsernameAndInvalidPassword@332796d3</td></tr>
+</table><p>
+</body>
+</html>

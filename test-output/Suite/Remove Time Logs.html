@@ -1,0 +1,306 @@
+<html>
+<head>
+<title>TestNG:  Remove Time Logs</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Remove Time Logs</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 02 08:38:34 PST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>270 seconds (270581 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TC7_Remove_Work_Hours_Details.Remove_Work_Hours_Details()'><b>Remove_Work_Hours_Details</b><br>Test class: test.TC7_Remove_Work_Hours_Details<br/>
+<a href="#Output-1073016150" onClick='toggleBox("Output-1073016150", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1073016150" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1073016150">
+Clicked the "I understand the risks, take me there anyway" link.<br/>
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Login button<br/>
+Successfully logged in using john.guballa credentials.<br/>
+Selected December 2022 time sheet period.<br/>
+Clicked the Whiz Hours button for date 12/2/2022<br/>
+Clicked the Task: [TCoE] Testing COE Support.<br/>
+Clicked remove button.<br/>
+Clicked ok button.<br/>
+Closed the daily work hours page.<br/>
+Clicked the Whiz Hours button for date 12/9/2022<br/>
+Clicked the Task: [TCoE] Testing COE Support.<br/>
+Clicked remove button.<br/>
+Clicked ok button.<br/>
+Closed the daily work hours page.<br/>
+Clicked the Whiz Hours button for date 12/16/2022<br/>
+Clicked the Task: [TCoE] Testing COE Support.<br/>
+Clicked remove button.<br/>
+Clicked ok button.<br/>
+Closed the daily work hours page.<br/>
+Clicked the Whiz Hours button for date 12/23/2022<br/>
+Clicked the Task: [TCoE] Testing COE Support.<br/>
+Clicked remove button.<br/>
+Clicked ok button.<br/>
+Closed the daily work hours page.<br/>
+Clicked the Whiz Hours button for date 12/30/2022<br/>
+Clicked the Task: [TCoE] Testing COE Support.<br/>
+Clicked remove button.<br/>
+Clicked ok button.<br/>
+Closed the daily work hours page.<br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>test.TC7_Remove_Work_Hours_Details@30e868be</td></tr>
+<tr>
+<td title='test.TC2_Enter_Time_Logs.Enter_Time_Logs()'><b>Enter_Time_Logs</b><br>Test class: test.TC2_Enter_Time_Logs<br/>
+<a href="#Output-1394526584" onClick='toggleBox("Output-1394526584", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1394526584" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1394526584">
+Clicked the "I understand the risks, take me there anyway" link.<br/>
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Login button<br/>
+Successfully logged in using john.guballa credentials.<br/>
+Selected December 2022 time sheet period.<br/>
+Clicked the 12/2/2022 date.<br/>
+Successfully entered Time In details for date 12/2/2022.<br/>
+Successfully entered Time Out details for date 12/2/2022.<br/>
+Successfully entered Reason for TITO Override for date 12/2/2022.<br/>
+Clicked save time logs button.<br/>
+Clicked the 12/9/2022 date.<br/>
+Successfully entered Time In details for date 12/9/2022.<br/>
+Successfully entered Time Out details for date 12/9/2022.<br/>
+Successfully entered Reason for TITO Override for date 12/9/2022.<br/>
+Clicked save time logs button.<br/>
+Clicked the 12/16/2022 date.<br/>
+Successfully entered Time In details for date 12/16/2022.<br/>
+Successfully entered Time Out details for date 12/16/2022.<br/>
+Successfully entered Reason for TITO Override for date 12/16/2022.<br/>
+Clicked save time logs button.<br/>
+Clicked the 12/23/2022 date.<br/>
+Successfully entered Time In details for date 12/23/2022.<br/>
+Successfully entered Time Out details for date 12/23/2022.<br/>
+Successfully entered Reason for TITO Override for date 12/23/2022.<br/>
+Clicked save time logs button.<br/>
+Clicked the 12/30/2022 date.<br/>
+Successfully entered Time In details for date 12/30/2022.<br/>
+Successfully entered Time Out details for date 12/30/2022.<br/>
+Successfully entered Reason for TITO Override for date 12/30/2022.<br/>
+Clicked save time logs button.<br/>
+Successfully verified Time In Details of Date 12/2/2022.<br/>
+Successfully verified Time In Details of Date 12/9/2022.<br/>
+Successfully verified Time In Details of Date 12/16/2022.<br/>
+Successfully verified Time In Details of Date 12/23/2022.<br/>
+Successfully verified Time In Details of Date 12/30/2022.<br/>
+Successfully verified Time Out Details of Date 12/2/2022.<br/>
+Successfully verified Time Out Details of Date 12/9/2022.<br/>
+Successfully verified Time Out Details of Date 12/16/2022.<br/>
+Successfully verified Time Out Details of Date 12/23/2022.<br/>
+Successfully verified Time Out Details of Date 12/30/2022.<br/>
+Successfully verified Reason for TITO Override of Date 12/2/2022.<br/>
+Successfully verified Reason for TITO Override of Date 12/9/2022.<br/>
+Successfully verified Reason for TITO Override of Date 12/16/2022.<br/>
+Successfully verified Reason for TITO Override of Date 12/23/2022.<br/>
+Successfully verified Reason for TITO Override of Date 12/30/2022.<br/>
+Clicked the Logout button.<br/>
+Successfully logged out.<br/>
+</div>
+</td>
+<td></td>
+<td>77</td>
+<td>test.TC2_Enter_Time_Logs@4b41dd5c</td></tr>
+<tr>
+<td title='test.TC6_Remove_Time_Log_Details.Remove_Time_Log_Details()'><b>Remove_Time_Log_Details</b><br>Test class: test.TC6_Remove_Time_Log_Details<br/>
+<a href="#Output-683986146" onClick='toggleBox("Output-683986146", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-683986146" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-683986146">
+Clicked the "I understand the risks, take me there anyway" link.<br/>
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Login button<br/>
+Successfully logged in using john.guballa credentials.<br/>
+Selected December 2022 time sheet period.<br/>
+Clicked the 12/2/2022 date.<br/>
+Unselect Time In checkbox<br/>
+Unselect Time Out checkbox<br/>
+Successfully removed TITO Reason Override.<br/>
+Clicked save time logs button.<br/>
+Clicked the 12/9/2022 date.<br/>
+Unselect Time In checkbox<br/>
+Unselect Time Out checkbox<br/>
+Successfully removed TITO Reason Override.<br/>
+Clicked save time logs button.<br/>
+Clicked the 12/16/2022 date.<br/>
+Unselect Time In checkbox<br/>
+Unselect Time Out checkbox<br/>
+Successfully removed TITO Reason Override.<br/>
+Clicked save time logs button.<br/>
+Clicked the 12/23/2022 date.<br/>
+Unselect Time In checkbox<br/>
+Unselect Time Out checkbox<br/>
+Successfully removed TITO Reason Override.<br/>
+Clicked save time logs button.<br/>
+Clicked the 12/30/2022 date.<br/>
+Unselect Time In checkbox<br/>
+Unselect Time Out checkbox<br/>
+Successfully removed TITO Reason Override.<br/>
+Clicked save time logs button.<br/>
+Clicked the Logout button.<br/>
+Successfully logged out.<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>test.TC6_Remove_Time_Log_Details@38089a5a</td></tr>
+<tr>
+<td title='test.TC3_Enter_Work_Hours.Enter_Work_Hours()'><b>Enter_Work_Hours</b><br>Test class: test.TC3_Enter_Work_Hours<br/>
+<a href="#Output-521374580" onClick='toggleBox("Output-521374580", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-521374580" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-521374580">
+Clicked the "I understand the risks, take me there anyway" link.<br/>
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Login button<br/>
+Successfully logged in using john.guballa credentials.<br/>
+Selected December 2022 time sheet period.<br/>
+Clicked the Whiz Hours button for date 12/2/2022<br/>
+Successfully verified that correct date is displayed.<br/>
+Selected the Project Name: Automated Testing Main.<br/>
+Clicked the Active Tasks button.<br/>
+Clicked the Task: [TCoE] Testing COE Support.<br/>
+Entered the Work Hours: 8.<br/>
+Selected the Work Type: Normal.<br/>
+Entered the Task DescriptionThis is an automated test.<br/>
+Saved the work hours.<br/>
+Closed the daily work hours page.<br/>
+Clicked the show task log<br/>
+Successfully verified task logs for date 12/2/2022<br/>
+Clicked the hide task log<br/>
+Clicked the Whiz Hours button for date 12/9/2022<br/>
+Successfully verified that correct date is displayed.<br/>
+Selected the Project Name: Automated Testing Main.<br/>
+Clicked the Active Tasks button.<br/>
+Clicked the Task: [TCoE] Testing COE Support.<br/>
+Entered the Work Hours: 8.<br/>
+Selected the Work Type: Normal.<br/>
+Entered the Task DescriptionThis is an automated test.<br/>
+Saved the work hours.<br/>
+Closed the daily work hours page.<br/>
+Clicked the show task log<br/>
+Successfully verified task logs for date 12/9/2022<br/>
+Clicked the hide task log<br/>
+Clicked the Whiz Hours button for date 12/16/2022<br/>
+Successfully verified that correct date is displayed.<br/>
+Selected the Project Name: Automated Testing Main.<br/>
+Clicked the Active Tasks button.<br/>
+Clicked the Task: [TCoE] Testing COE Support.<br/>
+Entered the Work Hours: 8.<br/>
+Selected the Work Type: Normal.<br/>
+Entered the Task DescriptionThis is an automated test.<br/>
+Saved the work hours.<br/>
+Closed the daily work hours page.<br/>
+Clicked the show task log<br/>
+Successfully verified task logs for date 12/16/2022<br/>
+Clicked the hide task log<br/>
+Clicked the Whiz Hours button for date 12/23/2022<br/>
+Successfully verified that correct date is displayed.<br/>
+Selected the Project Name: Automated Testing Main.<br/>
+Clicked the Active Tasks button.<br/>
+Clicked the Task: [TCoE] Testing COE Support.<br/>
+Entered the Work Hours: 8.<br/>
+Selected the Work Type: Normal.<br/>
+Entered the Task DescriptionThis is an automated test.<br/>
+Saved the work hours.<br/>
+Closed the daily work hours page.<br/>
+Clicked the show task log<br/>
+Successfully verified task logs for date 12/23/2022<br/>
+Clicked the hide task log<br/>
+Clicked the Whiz Hours button for date 12/30/2022<br/>
+Successfully verified that correct date is displayed.<br/>
+Selected the Project Name: Automated Testing Main.<br/>
+Clicked the Active Tasks button.<br/>
+Clicked the Task: [TCoE] Testing COE Support.<br/>
+Entered the Work Hours: 8.<br/>
+Selected the Work Type: Normal.<br/>
+Entered the Task DescriptionThis is an automated test.<br/>
+Saved the work hours.<br/>
+Closed the daily work hours page.<br/>
+Clicked the show task log<br/>
+Successfully verified task logs for date 12/30/2022<br/>
+Clicked the hide task log<br/>
+</div>
+</td>
+<td></td>
+<td>84</td>
+<td>test.TC3_Enter_Work_Hours@4b23c30a</td></tr>
+</table><p>
+</body>
+</html>

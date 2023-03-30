@@ -1,0 +1,247 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 02 11:41:06 PST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>175 seconds (175137 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TimeLogs.TC10_Enter_Time_Logs_TimeIn_and_TimeOut_Week3.Enter_Time_Logs()'><b>Enter_Time_Logs</b><br>Test class: test.TimeLogs.TC10_Enter_Time_Logs_TimeIn_and_TimeOut_Week3<br/>
+<a href="#Output-2057192703" onClick='toggleBox("Output-2057192703", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2057192703" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2057192703">
+Clicked the "I understand the risks, take me there anyway" link.<br/>
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Login button<br/>
+Successfully logged in using john.guballa credentials.<br/>
+Selected November 2022 time sheet period.<br/>
+Clicked the 11/17/2022 date.<br/>
+Successfully entered Time In details for date 11/17/2022.<br/>
+Successfully entered Time Out details for date 11/17/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/17/2022.<br/>
+Successfully entered Time In details for date 11/18/2022.<br/>
+Successfully entered Time Out details for date 11/18/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/18/2022.<br/>
+Clicked save time logs button.<br/>
+Successfully verified Time In Details of Date 11/17/2022.<br/>
+Successfully verified Time In Details of Date 11/18/2022.<br/>
+Successfully verified Time Out Details of Date 11/17/2022.<br/>
+Successfully verified Time Out Details of Date 11/18/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/17/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/18/2022.<br/>
+Clicked the Logout button.<br/>
+Successfully logged out.<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>test.TimeLogs.TC10_Enter_Time_Logs_TimeIn_and_TimeOut_Week3@1603cd68</td></tr>
+<tr>
+<td title='test.TimeLogs.TC9_Enter_Time_Logs_TimeIn_and_TimeOut_Week2.Enter_Time_Logs()'><b>Enter_Time_Logs</b><br>Test class: test.TimeLogs.TC9_Enter_Time_Logs_TimeIn_and_TimeOut_Week2<br/>
+<a href="#Output-807661911" onClick='toggleBox("Output-807661911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-807661911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-807661911">
+Clicked the "I understand the risks, take me there anyway" link.<br/>
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Login button<br/>
+Successfully logged in using john.guballa credentials.<br/>
+Selected November 2022 time sheet period.<br/>
+Clicked the 11/7/2022 date.<br/>
+Successfully entered Time In details for date 11/7/2022.<br/>
+Successfully entered Time Out details for date 11/7/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/7/2022.<br/>
+Successfully entered Time In details for date 11/8/2022.<br/>
+Successfully entered Time Out details for date 11/8/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/8/2022.<br/>
+Successfully entered Time In details for date 11/9/2022.<br/>
+Successfully entered Time Out details for date 11/9/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/9/2022.<br/>
+Successfully entered Time In details for date 11/10/2022.<br/>
+Successfully entered Time Out details for date 11/10/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/10/2022.<br/>
+Clicked save time logs button.<br/>
+Successfully verified Time In Details of Date 11/7/2022.<br/>
+Successfully verified Time In Details of Date 11/8/2022.<br/>
+Successfully verified Time In Details of Date 11/9/2022.<br/>
+Successfully verified Time In Details of Date 11/10/2022.<br/>
+Successfully verified Time Out Details of Date 11/7/2022.<br/>
+Successfully verified Time Out Details of Date 11/8/2022.<br/>
+Successfully verified Time Out Details of Date 11/9/2022.<br/>
+Successfully verified Time Out Details of Date 11/10/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/7/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/8/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/9/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/10/2022.<br/>
+Clicked the Logout button.<br/>
+Successfully logged out.<br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>test.TimeLogs.TC9_Enter_Time_Logs_TimeIn_and_TimeOut_Week2@3899782c</td></tr>
+<tr>
+<td title='test.TimeLogs.TC8_Enter_Time_Logs_TimeIn_and_TimeOut_Week1.Enter_Time_Logs()'><b>Enter_Time_Logs</b><br>Test class: test.TimeLogs.TC8_Enter_Time_Logs_TimeIn_and_TimeOut_Week1<br/>
+<a href="#Output-1724495151" onClick='toggleBox("Output-1724495151", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1724495151" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1724495151">
+Clicked the "I understand the risks, take me there anyway" link.<br/>
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Login button<br/>
+Successfully logged in using john.guballa credentials.<br/>
+Selected November 2022 time sheet period.<br/>
+Clicked the 11/2/2022 date.<br/>
+Successfully entered Time In details for date 11/2/2022.<br/>
+Successfully entered Time Out details for date 11/2/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/2/2022.<br/>
+Successfully entered Time In details for date 11/3/2022.<br/>
+Successfully entered Time Out details for date 11/3/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/3/2022.<br/>
+Successfully entered Time In details for date 11/4/2022.<br/>
+Successfully entered Time Out details for date 11/4/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/4/2022.<br/>
+Clicked save time logs button.<br/>
+Successfully verified Time In Details of Date 11/2/2022.<br/>
+Successfully verified Time In Details of Date 11/3/2022.<br/>
+Successfully verified Time In Details of Date 11/4/2022.<br/>
+Successfully verified Time Out Details of Date 11/2/2022.<br/>
+Successfully verified Time Out Details of Date 11/3/2022.<br/>
+Successfully verified Time Out Details of Date 11/4/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/2/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/3/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/4/2022.<br/>
+Clicked the Logout button.<br/>
+Successfully logged out.<br/>
+</div>
+</td>
+<td></td>
+<td>44</td>
+<td>test.TimeLogs.TC8_Enter_Time_Logs_TimeIn_and_TimeOut_Week1@265adfad</td></tr>
+<tr>
+<td title='test.TimeLogs.TC11_Enter_Time_Logs_TimeIn_and_TimeOut_Week4.Enter_Time_Logs()'><b>Enter_Time_Logs</b><br>Test class: test.TimeLogs.TC11_Enter_Time_Logs_TimeIn_and_TimeOut_Week4<br/>
+<a href="#Output-1457189809" onClick='toggleBox("Output-1457189809", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1457189809" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1457189809">
+Clicked the "I understand the risks, take me there anyway" link.<br/>
+Entered the username<br/>
+Entered the password<br/>
+Clicked the Login button<br/>
+Successfully logged in using john.guballa credentials.<br/>
+Selected November 2022 time sheet period.<br/>
+Clicked the 11/21/2022 date.<br/>
+Successfully entered Time In details for date 11/21/2022.<br/>
+Successfully entered Time Out details for date 11/21/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/21/2022.<br/>
+Successfully entered Time In details for date 11/22/2022.<br/>
+Successfully entered Time Out details for date 11/22/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/22/2022.<br/>
+Successfully entered Time In details for date 11/23/2022.<br/>
+Successfully entered Time Out details for date 11/23/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/23/2022.<br/>
+Successfully entered Time In details for date 11/24/2022.<br/>
+Successfully entered Time Out details for date 11/24/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/24/2022.<br/>
+Successfully entered Time In details for date 11/25/2022.<br/>
+Successfully entered Time Out details for date 11/25/2022.<br/>
+Successfully entered Reason for TITO Override for date 11/25/2022.<br/>
+Clicked save time logs button.<br/>
+Successfully verified Time In Details of Date 11/21/2022.<br/>
+Successfully verified Time In Details of Date 11/22/2022.<br/>
+Successfully verified Time In Details of Date 11/23/2022.<br/>
+Successfully verified Time In Details of Date 11/24/2022.<br/>
+Successfully verified Time In Details of Date 11/25/2022.<br/>
+Successfully verified Time Out Details of Date 11/21/2022.<br/>
+Successfully verified Time Out Details of Date 11/22/2022.<br/>
+Successfully verified Time Out Details of Date 11/23/2022.<br/>
+Successfully verified Time Out Details of Date 11/24/2022.<br/>
+Successfully verified Time Out Details of Date 11/25/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/21/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/22/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/23/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/24/2022.<br/>
+Successfully verified Reason for TITO Override of Date 11/25/2022.<br/>
+Clicked the Logout button.<br/>
+Successfully logged out.<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>test.TimeLogs.TC11_Enter_Time_Logs_TimeIn_and_TimeOut_Week4@9ebe38b</td></tr>
+</table><p>
+</body>
+</html>
